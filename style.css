@@ -1,0 +1,70 @@
+:root{
+    --cor-primaria-success : rgb(75, 200, 138);
+    --cor-hover-sucess: rgb(116, 158, 137);
+    --cor-secundaria-sucess: rgb(27, 66, 50);
+
+    --cor-primaria-info : rgb(61, 157, 246);
+    --cor-hover-info: rgb(116, 134, 158);
+    --cor-secundaria-info: rgb(31, 62, 88);
+
+    --cor-primaria-success : rgb(200, 75, 75);
+    --cor-hover-sucess: rgb(158, 116, 116);
+    --cor-secundaria-sucess: rgb(58, 22, 22);
+}
+
+.btn{
+    border: none;
+    padding: 10px ;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 10px;
+
+/*SUCESS*/
+.btn-sucess{
+    background-color: var(--cor-primaria-success);
+    outline: none;
+    color: var(--cor-secundaria-success);
+}
+
+.btn-sucess:hover {
+    background-color: var(--cor-hover-sucess);
+}
+
+.btn-sucess:active {
+    color: #FFF;
+    background-color: var(--cor-secundaria-sucess);
+
+/*INFO*/
+.btn-info{
+    background-color: var(--cor-primaria-info);
+    outline: none;
+    color: var(--cor-secundaria-info);
+}
+
+.btn-info:hover {
+    background-color: var(--cor-hover-info);
+}
+
+.btn-info:active {
+    color: #FFF;
+    background-color: var(--cor-secundaria-sucess);
+}
+
+/*DANGER*/
+.btn-danger{
+    background-color: var(--cor-primaria-danger);
+    outline: none;
+    color: var(--cor-secundaria-danger);
+}
+
+.btn-sucdangeress:hover {
+    background-color: var(--cor-hover-danger);
+}
+
+.btn-danger:active {
+    color: #FFF;
+    background-color: var(--cor-secundaria-danger);
+}
+
+
